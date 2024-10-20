@@ -49,7 +49,7 @@ const Inbox = () => {
                 </div>
             </div>
             <div className='h-90vh overflow-y-auto'>
-                <div className='flex items-center gap-1 ta'>
+                <div  className='flex items-center gap-1 ta'>
                     {
                         mailType.map((items,index)=>{
                             return <>

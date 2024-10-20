@@ -42,11 +42,10 @@ const Sidebar = () => {
           Compose
         </button>
         <div className='text-gray-600'>
-
           {
-            sidebarItems.map((item,index)=>{
+            sidebarItems.map((item, index) => {
               return <>
-              <div className='flex item-center  pl-6 py-1 rounded-r-full gap-4 my-2 hover:cursor-pointer hover:bg-gray-200'>
+                <div className='flex item-center  pl-6 py-1 rounded-r-full gap-4 my-2 hover:cursor-pointer hover:bg-gray-200'>
                   {item.icon}
                   <p>{item.text}</p>
                 </div>
